@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
     <script src="index.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script type="text/javascript">
-        (function () {
-            emailjs.init("user_ymfDmx7FB21a8bepGPFsh");
-        })();
+      (function () {
+        emailjs.init("user_ymfDmx7FB21a8bepGPFsh");
+      })();
     </script>
 </head>
 
@@ -141,11 +141,11 @@
                 <form id="contact__form" onsubmit="contact(event)">
                     <div class="form__item">
                         <label class="form__item--label">Name</label>
-                        <input class="input" name="user__name" type="text" required></input>
+                        <input class="input" name="user_name" type="text" required></input>
                     </div>
                     <div class="form__item">
                         <label class="form__item--label">Email</label>
-                        <input class="input" name="user__email" type="email" required></input>
+                        <input class="input" name="user_email" type="email" required></input>
                     </div>
                     <div class="form__item">
                         <label class="form__item--label">Message</label>
