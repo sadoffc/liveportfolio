@@ -29,7 +29,7 @@ This repository contains the source code for my personal portfolio website. The 
 - **HTML5**: For structuring the website content.
 - **CSS3**: For styling and layout.
 - **JavaScript**: For interactivity and dynamic content.
-- 
+  
 ## Installation
 
 To run this project locally, follow these steps:
