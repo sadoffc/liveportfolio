@@ -156,8 +156,9 @@ nav,
     background-color: #242424;
 }
 
-.dark-theme #personal-logo {
+.dark-theme .logo {
     filter: none;
+    color: white;
 }
 
 .dark-theme .scroll__icon {
@@ -286,9 +287,16 @@ nav {
     height: 100px;
 }
 
-#personal-logo {
-    width: 80px;
-    height: 80px;
+.logo {
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 2.5px;
+}
+
+.logo-footer {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
 }
 
 .nav__link--list {
@@ -593,16 +601,16 @@ footer {
     align-items: center;
 }
 
-.footer__logo--img {
-    width: 70px;
-}
-
 .footer__social--list {
     width: 100%;
     max-width: 500px;
     display: flex;
     justify-content: space-around;
     margin: 28px 0;
+}
+
+.footer__copyright {
+    font-size: 12px;
 }
 
 .footer__social--link,
